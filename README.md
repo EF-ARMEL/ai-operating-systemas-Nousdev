@@ -36,6 +36,7 @@ AIOS moves away from "prompting and hoping" to a **Verifiable Workflow**. It int
 - `/docs`: Deep dives into methodology and tool catalogs.
 - `/config`: Templates for `.claude.json` and Desktop config.
 - `/templates`: Reusable protocol and instruction templates.
+- `/skills`: The actual logic and rule-sets for the AIOS skills (Engineering, Awwwards, Higgsfield, etc.).
 
 ---
 *Designed for those who demand excellence. Built for those who build the future.*

@@ -8,10 +8,11 @@ The AIOS methodology is built on the premise that speed without verification is 
 **Goal**: Synchronize the agent with the project's evolved principles and current observation log.
 
 ## 2. The Rigor Phase (Pre-Implementation)
-**Concept**: The "Thinking" phase.
-- **Explicit Assumptions**: The agent must state what it assumes to be true.
+**Concept**: The "Thinking" phase. This is the "Karpathy Rigor" layer.
+- **Explicit Assumptions**: The agent must state what it assumes to be true before suggesting a fix.
 - **Trade-off Analysis**: Present Option A (Fast but brittle) vs Option B (Robust but slower).
-- **Minimalist Solution**: Identify the smallest possible change that solves the problem without introducing new abstractions.
+- **Minimalist Solution**: Identify the smallest possible change that solves the problem. **Strict Rule**: If a bug can be fixed by changing 1 line instead of 10, the 1-line fix is the only acceptable solution.
+- **Verification-First Thinking**: Before proposing a solution, define exactly how it will be proven (e.g., "The fix is verified when the 'Submit' button is clickable and the API returns 200").
 
 ## 3. Expertise Activation
 **Concept**: Loading the professional "persona".
